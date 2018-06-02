@@ -20,7 +20,9 @@ class Weather():
 
         # Maybe not hard code these in the future
         try:
-            return self._weather['currently']['summary']
+            summary = self._weather['currently']['summary']
+            current_temperature = self._weather['currently']['temperature']
+            return '{} at {}'.format(summary, current_temperature)
         except KeyError as error:
             raise WeatherError('Error in getting current weather', error.args)
 

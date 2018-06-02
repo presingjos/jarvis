@@ -11,4 +11,5 @@ def have_internet():
         return True
     except:
         conn.close()
-        return Falses
+        print('Unable to connect to the internet')
+        return False

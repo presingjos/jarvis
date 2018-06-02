@@ -1,3 +1,10 @@
 
 .DS_Store
 *.pyc
+*.log
+models/alphabet.txt
+models/lm.binary
+models/output_graph.pb
+models/trie
+output.wav
+src/Emily Family Tree
