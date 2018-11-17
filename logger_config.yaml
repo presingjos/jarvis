@@ -17,7 +17,7 @@ handlers:
 loggers:
     '':
         level: INFO
-        handlers: [file]
+        handlers: [console]
     stream:
         level: INFO
         handlers: [console]
